@@ -43,6 +43,7 @@ const Footer = () => {
             Jacobo Martínez
           </a>
         </p>
+        <p className="footer__text">Adapted by Luke Zhang</p>
 
         {isEnabled && <GithubButtons />}
       </Container>
