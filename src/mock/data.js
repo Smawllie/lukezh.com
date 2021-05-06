@@ -12,7 +12,7 @@ export const heroData = {
   title: 'Software Engineer',
   name: 'Luke Zhang',
   subtitle: '@ UToronto Computer Science',
-  cta: '',
+  cta: 'Know More',
 };
 
 // ABOUT DATA
