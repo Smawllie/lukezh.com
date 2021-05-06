@@ -36,15 +36,19 @@ const Header = () => {
           left={isDesktop}
           bottom={isMobile}
           duration={fadeDuration}
-          delay={500}
+          delay={1200}
           distance="30px"
         >
           <p className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
-                {cta}
-              </Link>
-            </span>
+            {cta ? (
+              <span className="cta-btn cta-btn--hero">
+                <Link to="about" smooth duration={1000}>
+                  {cta}
+                </Link>
+              </span>
+            ) : (
+              <p />
+            )}
           </p>
         </Fade>
       </Container>
