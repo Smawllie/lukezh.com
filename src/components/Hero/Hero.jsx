@@ -36,7 +36,7 @@ const Header = () => {
           left={isDesktop}
           bottom={isMobile}
           duration={fadeDuration}
-          delay={1200}
+          delay={1000}
           distance="30px"
         >
           <p className="hero-cta">
