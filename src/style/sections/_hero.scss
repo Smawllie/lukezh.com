@@ -17,7 +17,7 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  background: url('../../src/assets/toronto3.jpeg');
+  background: url('../../src/assets/toronto.jpeg');
   background-position: center;
   background-size: cover;
 
@@ -30,9 +30,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
-    text-shadow: 2px 2px 4px #ffffff;
-    // text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
-    //   -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #ffffff;
 
     @include respond(tab-land) {
       font-size: 4rem;
