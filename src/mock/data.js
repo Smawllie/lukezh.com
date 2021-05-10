@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import resume from '../assets/resume.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -18,10 +19,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'test',
+  paragraphOne:
+    'Exceptional and inquisitive undergraduate computer scientist with superb leadership and programming skills developed through the #1 university in Canada and professional experience.',
+  skills: ['Self-learner'],
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume, // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
