@@ -20,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Exceptional and inquisitive undergraduate computer scientist with superb leadership and programming skills developed at the #1 university in Canada and professional experience.',
+    'Exceptional and inquisitive undergraduate computer scientist with superb leadership and programming skills developed at the #1 university in Canada and through professional experience.',
   skills: ['Self-learner'],
   paragraphTwo: '',
   paragraphThree: '',
