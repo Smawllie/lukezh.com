@@ -31,38 +31,34 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'codeCollab.png',
+    title: 'CodeCollab',
+    info:
+      'A collaborative code editor similar to how Google Docs is a collaborative text editor. Users can create accounts, create projects, preview projects, share projects, and even extract text from images of code.',
+    info2: 'Invested 500+ combined hours and achieved top marks in Programming on the Web',
+    url: 'https://codecollab.me',
+    demo: 'https://www.youtube.com/watch?v=vf6fZMGhPdo',
+    repo: 'https://github.com/Smawllie/CodeCollab', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'pickEasy.png',
+    title: 'PickEasy Rewards',
+    info:
+      'A web app that allows restaurants to create an achievement-based, gamified loyalty and rewards system for their customers.',
+    info2:
+      'Won 1st place as the best project in a course-wide competition resulting in a noteworthy 5% total grade increase',
+    url: 'https://pick-easy.herokuapp.com/#/',
+    demo: 'https://youtu.be/GQPerJtF0yM',
+    repo: 'https://github.com/Smawllie/pick-easy', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Email Me!',
+  email: 'lukel.zhang@mail.utoronto.ca',
 };
 
 // FOOTER DATA
@@ -70,23 +66,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/luke-zh',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Smawllie',
     },
   ],
 };
