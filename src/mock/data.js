@@ -3,9 +3,9 @@ import resume from '../assets/resume.pdf';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Luke Zhang', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: "Luke Zhang's Personal Website", // e.g: Welcome to my website
 };
 
 // HERO DATA

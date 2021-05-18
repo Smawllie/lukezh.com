@@ -22,13 +22,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Luke Zhang`,
+        short_name: `LZ`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
+        // https://favicon.io/favicon-generator/: LZ - Circle - Pattaya - 75 Font Size -
       },
     },
   ],
