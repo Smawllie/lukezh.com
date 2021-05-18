@@ -20,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Exceptional and inquisitive undergraduate computer scientist with superb leadership and programming skills developed through the #1 university in Canada and professional experience.',
+    'Exceptional and inquisitive undergraduate computer scientist with superb leadership and programming skills developed at the #1 university in Canada and professional experience.',
   skills: ['Self-learner'],
   paragraphTwo: '',
   paragraphThree: '',
@@ -58,7 +58,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: 'Email Me!',
-  email: 'lukel.zhang@mail.utoronto.ca',
+  email: 'mailto:lukel.zhang@mail.utoronto.ca',
 };
 
 // FOOTER DATA
