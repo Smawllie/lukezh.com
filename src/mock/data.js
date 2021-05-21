@@ -21,7 +21,29 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
     'Exceptional and inquisitive undergraduate computer scientist with superb leadership and programming skills developed at the #1 university in Canada and through professional experience.',
-  skills: ['Self-learner'],
+  // Steadfast Self-Learner Self-Aware Motivated
+  skills: [
+    {
+      skillName: 'Detail-oriented',
+      skillIcon: 'search',
+    },
+    {
+      skillName: 'Visionary',
+      skillIcon: 'binoculars',
+    },
+    {
+      skillName: 'Adaptable',
+      skillIcon: 'arrows-alt',
+    },
+    {
+      skillName: 'Team Player',
+      skillIcon: 'group',
+    },
+    {
+      skillName: 'Empathetic',
+      skillIcon: 'handshake-o',
+    },
+  ],
   paragraphTwo: '',
   paragraphThree: '',
   resume, // if no resume, the button will not show up

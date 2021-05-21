@@ -44,6 +44,7 @@
       }
 
       &-text {
+        margin-top: 1rem;
         text-align: left;
 
         @include respond(tab-port) {
@@ -70,6 +71,39 @@
             background: transparent;
             font-style: normal;
           }
+        }
+      }
+
+      &-tag {
+        padding: 0.5rem;
+        margin-top: 0.8rem;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 1;
+        border-radius: 25px;
+        // border-top-left-radius: 10px;
+
+        &:nth-child(2n) {
+          color: $white-color;
+          border: 2px solid $white-color;
+          // color: $dark-blue-text;
+          // border: 2px solid $dark-grey;
+          // border-top: 2px solid $dark-grey;
+          // border-right: 2px solid $dark-grey;
+          // border-bottom: 2px solid $dark-grey;
+        }
+
+        &:nth-child(2n + 1) {
+          color: $white-color;
+          border: 2px solid $white-color;
+          // color: $dark-grey;
+          // border: 2px solid $dark-blue-text;
+          // border-bottom: 2px solid $dark-grey;
+          // border-left: 2px solid $dark-grey;
+        }
+
+        &:not(:first-child) {
+          margin-left: 0.7rem;
         }
       }
     }

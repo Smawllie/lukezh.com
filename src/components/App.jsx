@@ -6,6 +6,7 @@ import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 
 import { PortfolioProvider } from '../context/context';
+// import 'semantic-ui-css/semantic.min.css';
 
 import {
   heroData,

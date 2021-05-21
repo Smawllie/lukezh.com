@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about, setting } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, skills, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
   const { fadeDuration } = setting;
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -43,12 +43,25 @@ const About = () => {
               delay={500}
               distance="30px"
             >
-              <div className="about-wrapper__info">
+              <div className="about-wrapper__info ">
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 {paragraphTwo ? <p className="about-wrapper__info-text">{paragraphTwo}</p> : ''}
                 {paragraphThree ? <p className="about-wrapper__info-text">{paragraphThree}</p> : ''}
+
+                <div className="d-flex justify-content-between flex-wrap">
+                  {skills
+                    ? skills.map((skill) => {
+                        const { skillName, skillIcon } = skill;
+                        return (
+                          <div className="about-wrapper__info-tag">
+                            <i className={`fa fa-${skillIcon}`} /> {skillName}
+                          </div>
+                        );
+                      })
+                    : ''}
+                </div>
                 {resume && (
-                  <span className="d-flex mt-3">
+                  <span className="d-flex">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
