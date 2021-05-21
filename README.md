@@ -12,7 +12,7 @@
 
 ## Authors
 
-- **Luke Zhang** - [https://github.com/Smawllie](https://github.com/Smawllie)
+- **Luke Zhang**
 - Template by [**Jacobo Martinez**](https://github.com/cobidev)
 
 ## License 📄
