@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ReactGA from 'react-ga';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import Projects from './Projects/Projects';
@@ -16,6 +17,9 @@ import {
   footerData,
   settingData,
 } from '../mock/data';
+
+ReactGA.initialize('G-BSGHYEH5S3');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   const [hero, setHero] = useState({});
